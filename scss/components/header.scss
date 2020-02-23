@@ -1,0 +1,23 @@
+body{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: 138%;
+}
+.nav-ul{
+    font-family: 'Roboto_bold';
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    .nav-li{
+        color: white;
+        margin: 25px 100px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+         &:hover{
+             cursor: pointer;
+         }
+    }
+    .name-last{
+       margin-right: 180px;
+   }
+}
