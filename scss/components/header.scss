@@ -21,3 +21,17 @@ body{
        margin-right: 180px;
    }
 }
+.capture-img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    border: 1px solid #95a5a6;
+    box-sizing: border-box;
+      &:hover{
+        border: 2.5px solid #2980b9;  
+      }
+}
+.fr-ls{
+    display: flex;
+}
