@@ -3,6 +3,7 @@
 // }
 .index-page{
   background: #222222;
+  height: 750px;
 }
 .bio{
     margin-top: 100px;
@@ -90,3 +91,30 @@
 
 
 // Twins Wine Cellar page
+
+// projects page
+
+.my-build-projects{
+  line-height: 50px;
+  text-transform: capitalize;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Mont ExtraLight DEMO';
+  color: white;
+}
+.desinger-fr-ls{
+  border: 1px dashed;
+  padding: 10px;
+}
+.desinger-link{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+// projects page
