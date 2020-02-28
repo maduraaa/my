@@ -1,5 +1,8 @@
-body{
-    background: #222222;
+// body{
+//     background: #222222;
+// }
+.index-page{
+  background: #222222;
 }
 .bio{
     margin-top: 100px;
@@ -22,15 +25,15 @@ body{
 }
 .bio-about{
     position: relative;
-    font-family: sans-serif;
-    text-transform: uppercase;
+    font-family: 'Roboto_bold';
+    text-transform: capitalize;
     font-size: 2em;
     letter-spacing: 4px;
     overflow: hidden;
     background: linear-gradient(90deg, #222222, #fff, #222222);
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: animate 5s linear infinite;
+    animation: animate 4s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
   }
@@ -43,3 +46,47 @@ body{
       background-position: 500%;
     }
   }
+
+// Twins Wine Cellar page
+.wine-page-header{
+  background-color:#232731;
+  padding-top: 60px;
+  height: 700px;
+}
+.wine-page-ul{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+.change-1{
+  margin-right: 220px;
+}
+.change-2, .change-5{
+  margin-right: 35px;
+}
+.change-3, .change-4{
+  margin-right: 115px  ;
+}
+.wine-page-li{
+  font-family: 'FiraGO';
+}
+.change-4{
+  font-size: 48px;
+  font-family: 'Mont Heavy DEMO';
+}
+.change-7{
+  padding: 20px;
+  border: 1px solid #ffffff;
+}
+.change-6{
+  margin-right: 200px;
+}
+.wine-page-nav-a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+// Twins Wine Cellar page

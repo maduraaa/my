@@ -9,3 +9,36 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face {
+    font-family: 'FiraGO';
+    src: url('../fonts/FiraGO-Bold.eot');
+    src: url('../fonts/FiraGO-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FiraGO-Bold.woff2') format('woff2'),
+        url('../fonts/FiraGO-Bold.woff') format('woff'),
+        url('../fonts/FiraGO-Bold.ttf') format('truetype'),
+        url('../fonts/FiraGO-Bold.svg#FiraGO-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mont Heavy DEMO';
+    src: url('../fonts/Mont-HeavyDEMO.eot');
+    src: url('../fonts/Mont-HeavyDEMO.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mont-HeavyDEMO.woff2') format('woff2'),
+        url('../fonts/Mont-HeavyDEMO.woff') format('woff'),
+        url('../fonts/Mont-HeavyDEMO.ttf') format('truetype'),
+        url('../fonts/Mont-HeavyDEMO.svg#Mont-HeavyDEMO') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mont ExtraLight DEMO';
+    src: url('../fonts/Mont-ExtraLightDEMO.eot');
+    src: url('../fonts/Mont-ExtraLightDEMO.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mont-ExtraLightDEMO.woff2') format('woff2'),
+        url('../fonts/Mont-ExtraLightDEMO.woff') format('woff'),
+        url('../fonts/Mont-ExtraLightDEMO.ttf') format('truetype'),
+        url('../fonts/Mont-ExtraLightDEMO.svg#Mont-ExtraLightDEMO') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
