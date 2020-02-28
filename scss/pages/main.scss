@@ -96,19 +96,50 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 110px;
-  font-family: 'Mont Heavy DEMO';
+  font-size: 130px;
+  font-family: 'Mont ExtraLight DEMO';
   width: 1200px;
 }
-
-
+// page 2
+.wine-page2{
+  background-image: url(../img/barrels-aging-in-winery.png);
+  background-color:#232731;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+  padding-top: 60px;
+}
+.wine-page-2-text-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 230px;
+}
+.wine-page-2-texe-1{
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'FiraGO';
+  text-align: left;
+  width: 1150px;
+  margin: 0 30px 0 30px;
+  line-height: 35px;
+}
+.wine-page-2-text-2{
+  font-size: 22px;
+  color: #ffffff;
+  font-family: 'Mont ExtraLight DEMO';
+  // transform-origin: 0 0;
+  transform: rotate(-90deg);
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 1020px;
+}
+// page 2
 // Twins Wine Cellar page
 
 
 
 
 // projects page
-
 .my-build-projects{
   line-height: 50px;
   text-transform: capitalize;
@@ -129,7 +160,4 @@
   text-decoration: none;
   color: #ffffff;
 }
-
-
-
 // projects page
