@@ -183,7 +183,7 @@
 .wine-page4{
     padding-top: 60px;
     background-color: #232731;
-    height: 900px;
+    height: 1700px;
 }
 .wine-wrapper-section{
     display: flex;
@@ -234,7 +234,7 @@
         border: 1px solid  #ffffff;
         font-family: 'Roboto';
         font-size: 20px;
-        padding: 26px 60px;
+        padding: 26px 55px;
         color: #ffffff;
         margin-left: 25px;
         display: inline-block;
@@ -272,5 +272,66 @@
                }
         }
 }
-
+.wine-wrapper-next-section{
+    margin-top: 250px;
+}
+.wine-wrapper-div-box-2{
+    display: flex;
+       .wine-wrapper-img-2{
+           height: 550px;
+           margin-left: 50px;
+       }
+       .wine-wrapper-title-text-3{
+           font-size: 52px;
+           color: #ffffff;
+           font-family: 'Roboto';
+           margin-top: 40px;
+           margin-left: 80px;
+       }
+       .wine-wrapper-about-text-4{
+           font-size: 25px;
+           color: #ffffff;
+           font-family: 'Mont ExtraLight DEMO';
+           line-height: 38px;
+           margin-top: 90px;
+           margin-left: 80px;
+       }
+       .wine-wrapper-card-buy-new{
+           margin-left: 80px;
+           display: flex;
+           align-items: center;
+           margin-top: 110px;
+              .wine-wrapper-price-2{
+                  font-size: 60px;
+                  color: #ffffff;
+                  font-family: 'Roboto';
+              }
+              .wine-wrapper-card-2{
+                  color: #ffffff;
+                  font-family: 'Roboto';
+                  font-size: 20px;
+                  border: 1px solid #ffffff;
+                  padding: 26px 35px;
+                  margin-left: 55px;
+                    &:hover{
+                        background-color: #9C0000;
+                        border-color: #9C0000;
+                        cursor: pointer;
+                    }
+              }
+              .wine-page-buy-2{
+                color: #ffffff;
+                font-family: 'Roboto';
+                font-size: 20px;
+                border: 1px solid #ffffff;
+                padding: 26px 50px;
+                margin-left: 25px;
+                    &:hover{
+                        background-color: #9C0000;
+                        border-color: #9C0000;
+                        cursor: pointer;
+                    }
+              }
+       }
+}
   // wine 4
