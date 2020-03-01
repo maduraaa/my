@@ -122,20 +122,25 @@
         font-size: 13px;
         display: inline-block;
           .change-a-color{
-              background-color: #9C0000;
               margin-left: 20px;
           }
             .wine-page-3-li-a-2 {
-                border: 1px solid #9C0000;
-                padding: 25.6px 32px;
+                border: 1px solid #ffffff;
+                padding: 25px 30px;
                 text-decoration: none;
                 color: white;
+                  &:hover{
+                      background-color: #9C0000;
+                  }
             }
                 .wine-page-3-li-a{
                     border: 1px solid white;
                     padding: 25px 35px;
                     text-decoration: none;
-                    color: white;
+                    color: white; 
+                      &:hover{
+                          background-color: #9C0000;
+                      }
                 }
     }
 }
@@ -176,5 +181,100 @@
           }
     }
 }
-
   // wine 3
+
+  // wine 4
+.wine-page4{
+    padding-top: 60px;
+    background-color: #232731;
+    height: 900px;
+}
+.wine-wrapper-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.wine-wrapper-div-box{
+    display: flex;
+       .wine-wrapper-img{
+          height: 450px;
+      }
+      .wine-wrapper-title-text{
+          margin-left: 20px;
+          font-size: 45px;
+          color: #ffffff;
+          font-family: 'Roboto';
+      }
+      .wine-wrapper-about-text{
+          margin-left: 20px;
+          margin-top: 50px;
+          font-size: 20px;
+          color: #ffffff;
+          font-family: 'Mont ExtraLight DEMO';
+          line-height: 30px;
+      }
+      .wine-wrapper-price{
+          margin-left: 20px;
+          font-size: 60px;
+          color: #ffffff;
+          font-family: 'Roboto';
+          display: inline-block;
+      }
+      .wine-wrapper-card{
+          margin-left: 55px;
+          border: 1px solid #ffffff;
+          font-size: 20px;
+          padding: 25px 40px;
+          font-family: 'Roboto';
+          color: #ffffff;
+          display: inline-block;
+          cursor: pointer;
+            &:hover{
+                background-color: #9C0000;
+                border-color: #9C0000;
+        }
+      }
+      .wine-page-buy{
+        border: 1px solid  #ffffff;
+        font-family: 'Roboto';
+        font-size: 20px;
+        padding: 26px 60px;
+        color: #ffffff;
+        margin-left: 25px;
+        display: inline-block;
+        cursor: pointer;
+          &:hover{
+              background-color: #9C0000;
+              border-color: #9C0000;
+          }
+      }
+      .wine-wrapper-card-buy{
+          margin-top: 80px;
+          display: flex;
+          align-items: center;
+      }
+}
+.wine-all-page-footer{
+    margin-top: 200px;
+        .wine-page-all-footer-ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+               .wine-page-all-footer-li{
+                font-family: 'FiraGO';
+                font-size: 13px;
+                color: #ffffff;
+                   .wine-page-all-footer-text{
+                       margin-left: 995px;
+                   }
+                   .twitter-move-all{
+                       margin-left: 25px;
+                   }
+                   .player-move-all{
+                       margin-left: 25px;
+                   }
+               }
+        }
+}
+
+  // wine 4
