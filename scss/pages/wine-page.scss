@@ -66,7 +66,7 @@
     background-color:#232731;
     background-repeat: no-repeat;
     width: 100%;
-    height: 900px;
+    height: 980px;
     padding-top: 60px;
 }
 .wine-page-2-text-box{
@@ -104,7 +104,7 @@
       background-size: cover;
       padding-top: 60px;
       width: 100%;
-      height: 900px;
+      height: 890px;
   }
 .wine-page-3-fr-text{
     font-size: 50px;
@@ -183,7 +183,7 @@
 .wine-page4{
     padding-top: 60px;
     background-color: #232731;
-    height: 1700px;
+    height: 1688px;
 }
 .wine-wrapper-section{
     display: flex;
@@ -261,12 +261,14 @@
                 font-size: 13px;
                 color: #ffffff;
                    .wine-page-all-footer-text{
-                       margin-left: 995px;
+                       margin-left: 960px;
+                       font-size: 18px;
                    }
                    .twitter-move-all{
                        margin-left: 25px;
                    }
                    .player-move-all{
+                       margin-top: 3px;
                        margin-left: 25px;
                    }
                }
@@ -335,3 +337,182 @@
        }
 }
   // wine 4
+//   wine 5
+.wine-page5{
+    background-color: #232731;
+    padding-top: 60px;
+    height: 1120px;
+}
+.wine-page-5-section-div{
+    margin-top: 220px;
+    display: inline-block;
+    .wine-page-5-h1{
+        font-size: 32px;
+        color: #ffffff;
+        font-family: 'Mont Heavy DEMO';
+        margin-left: 110px;
+    }
+    .wine-page-5-h1-2{
+        margin-top: 40px;
+        font-size: 48px;
+        color: #ffffff;
+        font-family: 'Mont Heavy DEMO';
+    }
+    .wine-page-5-h1-3{
+        margin-top: 40px;
+        font-size: 48px;
+        color: #ffffff;
+        font-family: 'Mont Heavy DEMO';
+    }
+}
+.wine-page-5-section-div-2{
+    display: inline-block;
+    margin: 10px 0 0 180px;
+}
+.wine-page-5-colors{
+    margin-left: 230px;
+    font-size: 32px;
+    font-family: 'Mont Heavy DEMO';
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+.wine-page-5-colors-box{
+    display: inline-block;
+
+      .wine-page-5-color-boxs{
+          margin-top: 50px;
+          height: 79px;
+          width: 79px;
+          background-color: #000000;
+      }
+      .wine-page-5-colors-code{
+        margin-top: 15px;
+        font-family: 'FiraGO';
+        font-size: 15px;
+      }
+}
+.wine-page-5-colors-box-1{
+    display: inline-block;
+    margin-left: 38px;
+    .wine-page-5-color-boxs-1{
+        margin-top: 50px;
+        height: 79px;
+        width: 79px;
+        background-color: #B56767;
+    }
+    .wine-page-5-colors-code-1{
+        margin-top: 15px;
+        font-family: 'FiraGO';
+        font-size: 15px;
+      }
+}
+.wine-page-5-colors-box-2{
+    display: inline-block;
+    margin-left: 38px;
+    .wine-page-5-color-boxs-2{
+        margin-top: 50px;
+        height: 79px;
+        width: 79px;
+        background-color: #985938;
+    }
+    .wine-page-5-colors-code-2{
+        margin-top: 15px;
+        font-family: 'FiraGO';
+        font-size: 15px;
+      }
+}
+.wine-page-5-colors-box-3{
+    margin-left: 38px;
+    display: inline-block;
+    .wine-page-5-color-boxs-3{
+        margin-top: 50px;
+        height: 79px;
+        width: 79px;
+        background-color: #807935;
+    }
+    .wine-page-5-colors-code-3{
+        margin-top: 15px;
+        font-family: 'FiraGO';
+        font-size: 15px;
+      }
+}
+.wine-page-5-colors-box-4{
+    margin-left: 38px;
+    display: inline-block;
+    .wine-page-5-color-boxs-4{
+        margin-top: 50px;
+        height: 79px;
+        width: 79px;
+        background-color: #720317;
+    }
+    .wine-page-5-colors-code-4{
+        margin-top: 15px;
+        font-family: 'FiraGO';
+        font-size: 15px;
+      }
+}
+.wine-page-5-icon-box{
+    margin-top: 120px;
+    display: inline-block;
+        .wine-page-5-icon-text{
+            margin-bottom: 58px;
+            margin-left: 110px;
+            font-size: 32px;
+            color: #515151;
+            font-family: 'Mont Heavy DEMO';
+        }
+        .wine-page-5-icons{
+            margin: 40px;
+        }
+}
+.wine-page-5-hover-btn-box{
+    display: inline-block;
+    margin: 50px 0 0 320px; 
+        .wine-page-5-battens{
+            margin-left: 115px;
+            margin-bottom: 50px;
+            font-family: 'Mont Heavy DEMO';
+            font-size: 32px;
+            color: #515151;
+        }
+        .wine-page-5-btn-1{
+            font-size: 18px;
+            font-family: 'FiraGO';
+            color: #ffffff;
+            border: 1px solid #000000;
+            background-color: #000000;
+            padding: 28px;
+        }
+        .wine-page-5-btn-2{
+            margin-top: 25px;
+            font-size: 18px;
+            font-family: 'FiraGO';
+            color: #ffffff;
+            border: 1px solid #000000;
+            background-color: #000000;
+            padding: 28px; 
+        }
+        .wine-page-5-btn-3{
+            font-size: 18px;
+            font-family: 'FiraGO';
+            color: #ffffff;
+            border: 1px solid #000000;
+            padding: 28px 40px; 
+        }
+        .wine-page-5-btn-4{
+            margin-top: 25px;
+            font-size: 18px;
+            font-family: 'FiraGO';
+            color: #ffffff;
+            border: 1px solid #000000;
+            padding: 28px 41px; 
+        }
+        .wine-page-5-more-move-btn1{
+            display: inline-block;
+        }
+        .wine-page-5-more-move-btn2{
+            margin-left: 25px;
+            display: inline-block;
+        }
+}
+//   wine 5
