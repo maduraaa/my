@@ -1,5 +1,61 @@
-// @media (max-width: 1170px){
-//     .container{
-//         padding: 0 30px;
-//     }
-// }
+// wine index page wersion
+@media (max-width: 1024px){
+    .wine-page-header{
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .change-1{
+        margin-right: 150px;
+        display: none;
+    }
+    .change-7{
+        display: none;
+    }
+    .change-6{
+        margin-right: 0;
+    }
+    .wine-fr-page-text{
+        width: 1000px;
+    }
+}
+@media (max-width: 480px){
+    .wine-page-ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wine-page-main{
+        padding-top: 30px;
+    }
+    .wine-fr-page-text{
+        width: 450px;
+        line-height: 200px;
+        margin-top: 100px;
+    }
+    .change-2, .change-3, .change-4, .change-5, .change-6{
+        padding: 8px;
+    }
+    .change-4{
+        margin: 0;
+        border-left: 2px solid #ffffff;
+        border-right: 2px solid #ffffff;
+    }
+    .change-2{
+        margin: 0 186px 0 0;
+        border: 2px solid #ffffff;
+    }
+    .change-3{
+       margin: 0 0 0 20px;
+       border: 2px solid #ffffff;
+    }
+    .change-5{
+       margin: 0 35px 0 0;
+       border: 2px solid #ffffff;
+    }
+    .change-6{
+       margin: 0 0 0 162px;
+       border: 2px solid #ffffff;
+    }
+}
+// wine index page  wersion
