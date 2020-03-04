@@ -59,4 +59,49 @@
        border: 2px solid #ffffff;
     }
 }
-// wine index page  wersion
+// wine index page wersion
+   // wine page our history responsive
+@media (max-width: 1024px){
+    .wine-page2{
+        height: auto;
+        padding-top: 30px;
+    }
+    .wine-page-2-texe-1{
+        width: 800px;
+    }
+    .wine-page-2-text-2{
+        position: absolute;
+        left: 730px;
+        top: 750px;
+        margin: 0;
+    }
+    .wine-all-page-footer{
+        margin-top: 350px;
+    }
+    .wine-all-page-footer .wine-page-all-footer-ul
+     .wine-page-all-footer-li .wine-page-all-footer-text{
+        margin: 0px;
+    }
+    .twitter-move-all{
+        margin-right: 586px;
+    }
+}
+@media (max-width: 480px){
+    .wine-page2{
+        height: auto;
+    }
+    .wine-page-2-text-2{
+        display: none;
+    }
+    .wine-all-page-footer{
+        margin: 0px;
+        margin-top: 80px;
+        padding-bottom: 20px;
+    }
+    .twitter-move-all {
+        margin-right: 120px;
+    }
+}
+
+
+   // wine page our history responsive
