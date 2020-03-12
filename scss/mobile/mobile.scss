@@ -1,107 +1,81 @@
 // wine index page wersion
-@media (max-width: 1024px){
-    .wine-page-header{
-        max-width: 1024px;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .change-1{
-        margin-right: 150px;
-        display: none;
-    }
-    .change-7{
-        display: none;
-    }
-    .change-6{
-        margin-right: 0;
-    }
-    .wine-fr-page-text{
-        width: 1000px;
-    }
-}
 @media (max-width: 480px){
-    .wine-page-ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    #menuToggle{
+        display: inline-block;
+        margin-left: -21px;
     }
-    .wine-page-main{
-        padding-top: 30px;
+    .wine-page-ul{
+        display: none;
+    }
+    .wine-page-main, .wine-page2, .wine-page3{
+        padding-top: 0;
     }
     .wine-fr-page-text{
-        width: auto;
-        font-size: 100px;
-        line-height: 200px;
-        margin-top: 100px;
+        width: 270px;
+        font-size: 30px;
     }
-    .change-2, .change-3, .change-4, .change-5, .change-6{
-        padding: 8px;
-    }
-    .change-4{
-        margin: 0;
-        border-left: 2px solid #ffffff;
-        border-right: 2px solid #ffffff;
-    }
-    .change-2{
-        margin: 0 186px 0 0;
-        border: 2px solid #ffffff;
-    }
-    .change-3{
-       margin: 0 0 0 20px;
-       border: 2px solid #ffffff;
-    }
-    .change-5{
-       margin: 0 36px 0 0;
-       border: 2px solid #ffffff;
-    }
-    .change-6{
-       margin: 0 0 0 160px;
-       border: 2px solid #ffffff;
-    }
-}
-// wine index page wersion
-   // wine page our history responsive
-@media (max-width: 1024px){
-    .wine-page2{
-        height: auto;
-        padding-top: 30px;
+    .wine-page-2-text-2, .wine-all-page-footer, .wine-page-header, .wine-page-3-text-box, 
+    .wine-page-footer{
+        display: none;
     }
     .wine-page-2-texe-1{
-        width: 800px;
-    }
-    .wine-page-2-text-2{
-        position: absolute;
-        left: 730px;
-        top: 750px;
-        margin: 0;
-    }
-    .wine-all-page-footer{
-        margin-top: 350px;
-    }
-    .wine-all-page-footer .wine-page-all-footer-ul
-     .wine-page-all-footer-li .wine-page-all-footer-text{
-        margin: 0px;
-    }
-    .twitter-move-all{
-        margin-right: 586px;
-    }
-}
-@media (max-width: 480px){
-    .wine-page2{
-        height: auto;
-    }
-    .wine-page-2-text-2{
         display: none;
     }
-    .wine-all-page-footer{
-        margin: 0px;
-        margin-top: 80px;
-        padding-bottom: 20px;
+    .mobile-wine-page-our-text{
+        font-size: 18px;
+        color: #ffffff;
+        font-family: 'Mont Heavy DEMO';
+        line-height: 27px;
+        padding: 130px 20px 0 28px;
+        display: inline-block;
     }
-    .twitter-move-all {
-        margin-right: 120px;
+    .mobile-wine-page-our-footer{
+        font-family: 'FiraGO';
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 270px;
+        display: block;
+    }
+    .wine-page3{
+        background-position-x: -670px;
+    }
+    .wine-page-mobile-3-pages-text{
+        color: #fff;
+        font-size: 30px;
+        font-family: Roboto;
+        text-align: center;
+        padding-top: 390px;
+        line-height: 35px;
+    }
+    .wine-page-3-mobile-btn{
+        color: #ffffff;
+        font-size: 14px;
+        display: inline-block;
+        padding: 18px 20px;
+        border: 1px solid #ffffff;
+        font-family: 'FiraGO';
+          &:hover{
+              background-color: #ffffff;
+              cursor: pointer;
+              color: #000000;
+          }
+    }
+    .wine-page-3-mobile-hover-btn{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+            :last-child{
+                padding: 18px 15px;
+                margin-left: 10px;
+            }
+    }
+    .mobile-wine-page-our-footer-3{
+        font-family: 'FiraGO';
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 200px;
+        display: block;
     }
 }
-
-
-   // wine page our history responsive
