@@ -131,6 +131,7 @@
                 color: white;
                   &:hover{
                       background-color: #9C0000;
+                      border: 1px solid #9C0000;
                   }
             }
                 .wine-page-3-li-a{
@@ -140,6 +141,7 @@
                     color: white; 
                       &:hover{
                           background-color: #9C0000;
+                          border: 1px solid #9C0000;
                       }
                 }
     }
@@ -519,6 +521,10 @@
     display: none;
 }
 .mobile-wine-page-our-footer{
+    display: none;
+}
+.wine-fr-page-text-mobile, .mobile-wine-page-our-footer-home-page, 
+.wine-page-mobile-3-pages-text, .wine-page-3-mobile-btn, .mobile-wine-page-our-footer-3{
     display: none;
 }
 //   wine 5

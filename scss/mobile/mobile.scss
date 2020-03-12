@@ -10,13 +10,28 @@
     .wine-page-main, .wine-page2, .wine-page3{
         padding-top: 0;
     }
-    .wine-fr-page-text{
-        width: 270px;
+    .wine-fr-page-text-mobile{
+        margin-top: 410px;
         font-size: 30px;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'FiraGO';
+    }
+    .mobile-wine-page-our-footer-home-page{
+        font-family: 'FiraGO';
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 395px;
+        display: block;
     }
     .wine-page-2-text-2, .wine-all-page-footer, .wine-page-header, .wine-page-3-text-box, 
     .wine-page-footer{
         display: none;
+    }
+    .mobile-wine-page-our-footer-home-page, .wine-fr-page-text-mobile,
+    .wine-page-mobile-3-pages-text, .wine-page-3-mobile-btn, .mobile-wine-page-our-footer-3{
+        display: block;
     }
     .wine-page-2-texe-1{
         display: none;
@@ -34,7 +49,7 @@
         color: #ffffff;
         text-transform: uppercase;
         text-align: center;
-        padding-top: 270px;
+        padding-top: 220px;
         display: block;
     }
     .wine-page3{
