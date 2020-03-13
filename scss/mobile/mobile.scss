@@ -7,7 +7,7 @@
     .wine-page-ul{
         display: none;
     }
-    .wine-page-main, .wine-page2, .wine-page3, .wine-page4{
+    .wine-page-main, .wine-page2, .wine-page3, .wine-page4, .wine-page5{
         padding-top: 0;
     }
     .wine-fr-page-text-mobile{
@@ -114,10 +114,11 @@
     //         display: none;
     //     }
     // }
-    .wine-wrapper-about-text, .wine-wrapper-title-text-change-2-1{
+    .wine-wrapper-about-text, .wine-wrapper-title-text-change-2-1, .wine-all-page-footer{
         display: none;
     }
     .wine-page-4-mobile-wr-text{
+        display: block;
         font-size: 18px;
         color: #ffffff;
         font-family: 'Mont Heavy DEMO';
@@ -189,6 +190,7 @@
         display: none;
     }
     .wine-page-4-mobile-change-2-1-3-text{
+        display: block;
         font-size: 20px;
         font-family: 'Mont ExtraLight DEMO';
         color: #ffffff;
@@ -198,5 +200,115 @@
     }
     .wine-wrapper-card-buy-new{
         display: none !important;
+    }
+    .new-items-add-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .wine-page-4-new-img-add-1{
+        height: 340px;
+    }
+    .new-items-add{
+        font-family: 'Roboto';
+        color: #ffffff;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 28px;
+    }
+    .mdr-change-1{
+        padding-left: 15px;
+    }
+    .wine-page-4-new-img-add-2{
+        margin-top: 60px;
+        height: 318px;
+        margin-left: 4px;
+    }
+    .mobile-wine-page-our-footer-4{
+        font-family: 'FiraGO';
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+        padding: 150px 0 20px 0;
+
+    }
+    .wine-page4{
+        height: auto;
+    }
+    .wine-page-5-section-div{
+        display: block;
+        .wine-page-5-h1{
+            text-align: center;
+            margin: auto;
+        }
+        .wine-page-5-h1-2{
+            text-align: center;
+            margin: 30px auto auto auto;
+            font-size: 30px;
+        }
+        .wine-page-5-h1-3{
+            text-align: center;
+            margin: 30px auto auto auto;
+            font-size: 30px;
+        }
+    }
+    .wine-page-5-section-div-2{
+        margin: 100px auto auto auto;
+        display: table;
+    }
+    .wine-page-5-colors{
+        margin: auto;
+        text-align: center;
+    }
+    .wine-page-5-color-boxs, .wine-page-5-color-boxs-1, .wine-page-5-color-boxs-2,
+    .wine-page-5-color-boxs-3, .wine-page-5-color-boxs-4{
+        height: 40px !important;
+        width: 40px !important;
+    }
+    .wine-page-5-colors-box, .wine-page-5-colors-box-1, .wine-page-5-colors-box-2, 
+    .wine-page-5-colors-box-3, .wine-page-5-colors-box-4{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .wine-page-5-colors-code, .wine-page-5-colors-code-1, .wine-page-5-colors-code-2, 
+    .wine-page-5-colors-code-3, .wine-page-5-colors-code-4{
+        font-size: 10px !important;
+    }
+    .wine-page-5-icon-box{
+        display: table;
+        margin: 100px auto auto auto;
+    }
+    .wine-page-5-icons{
+        margin: 20px !important;
+    }
+    .wine-page-5-icon-text{
+        margin: auto !important;
+        text-align: center;
+        margin-bottom: 30px !important;
+    }
+    .wine-page-5-hover-btn-box{
+        margin: 100px auto auto auto;
+        display: table;
+    }
+    .wine-page-5-battens{
+        margin: auto auto 30px auto !important;
+        text-align: center;
+    }
+    .wine-page-5-btn-1{
+        padding: 20px !important;
+    }
+    .wine-page-5-btn-2{
+        padding: 19px 25px !important;
+    }
+    .wine-page-5-btn-3{
+        padding: 20px 32px!important;
+    }
+    .wine-page-5-btn-4{
+        padding: 19px 41px !important;
+    }
+    .wine-page5{
+        height: auto;
     }
 }
