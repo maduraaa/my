@@ -622,7 +622,8 @@
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 1500%;
+  height: 3000%;
   margin: -120px 0 0 -50px;
   padding: 20px 0 0 46px;
   padding-top: 150px;
@@ -632,11 +633,13 @@
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  background-color: #9C0000;
+  opacity: 85%;
 }
 #menu li
 {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 25px 0;
+  font-size: 25px;
   color: #ffffff;
   font-family: 'FiraGO';
 }
