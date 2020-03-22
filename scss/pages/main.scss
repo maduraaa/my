@@ -1,12 +1,12 @@
 .index-page-main{
   background: #333646;
-  height: 750px;
+  height: 100vh; 
 }  
 .bio{
   display: flex;
   justify-content: center;
   align-items: top;
-  margin-top: 170px;
+  margin-top: 150px;
 }
 .bio-name{
   font-size: 70px;
@@ -32,18 +32,19 @@
   margin-top: 20px;
 }
 .name-surname{
-  height: 400px;
+  height: 360px;
   width: 450px;
   color: #ffffff;
 }
 .dev-tool{
-  height: 400px;
+  height: 360px;
   width: 450px;
   color: #ffffff;
 }
-.profile-omg{
+.profile-img{
   height: 250px;
-  padding: 0 70px 0 30px;
+  margin: 0 70px 0 30px;
+  border-radius: 50% ;
 }
 .portfolio-social-icons-box{
    
@@ -58,6 +59,7 @@
   border: none !important;
 }
 .contact-section{
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
