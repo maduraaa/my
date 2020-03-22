@@ -82,34 +82,142 @@
 .my-social-a{
   text-decoration: none;
 }
+// project page main
+.project-page-main{
+  background-color: #333646;
+  height: 100vh;
+}
 
-
-
-
-
-
-
-
-
-// projects page
-.my-build-projects{
-  line-height: 50px;
-  text-transform: capitalize;
-  margin-top: 100px;
+// desinger cards
+.project-end-desinger{
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  margin-top: 100px;
+}
+.card{
+  border-radius: 10px;
+  width: 230px;
+  height: 360px;
+  background-color: #f5f6f7;
+  box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
+  font-family: 'Roboto';
+  position: relative;
+  overflow-x: hidden;
+}
+.card-head{
+  height: 44%;
+  display: flex;
   align-items: center;
-  font-size: 30px;
-  font-family: 'Mont ExtraLight DEMO';
-  color: white;
+  justify-content: center;
 }
-.desinger-fr-ls{
-  border: 1px dashed;
-  padding: 10px;
+.card-body{
+  text-align: center;
 }
-.desinger-link{
+.profile-img-desinger{
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
+  width: 85px;
+  height: 85px;
+  border: 3px solid #f1f8fd;
+  box-shadow:
+  20px 20px 20px rgba(0,0,0,0.07),
+  -20px -20px 20px rgba(255,255,255,0.7),
+  6px 6px 6px rgba(0,0,0,0.09),
+  -6px -6px 6px rgba(255,255,255,0.9);
+}
+.profile-img-desinger::after{
+  content:"";
+  border-radius: 50%;
+  background-color: #f1f8fd;
+  display: block;
+  background-image: url(../img/tamar-demetrashvili-img.jpg);
+}
+.acc{
+  position: absolute;
+  height: 75px;
+  top: 5px;
+  left: 4.9px;
+  border-radius: 50%;
+}
+.imgg{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.desinger-name{
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+.desc{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: inherit;
+  border: none;
+}
+.iconss{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: inherit;
+  border: none;
+  outline: 0;
+  box-shadow: -4px -2px 4px 0px #ffffff, 4px 2px 6px 0px #dfe4ea;
+  color: #807e7e;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 10rem;
+  margin: 0.6rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+.iconss:focus::after,
+.iconss:active::after{
+  content: "";
+     position: absolute;
+     left: 0;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     border-radius: 10rem;
+     box-shadow: 2px 2px 2px 0px #dfe4ea inset, -2px -2px 2px 0px #ffffff inset;
+}
+.desinger-icons-ul{
+  margin-top: 15px;
+  display: inline-flex;
+}
+.desinger-icons-li{
+  list-style: none;
+}
+.btn-portfolio{
+  position: relative;
+  background: inherit;
+  box-shadow: -4px -2px 4px 0px #ffffff, 4px  2px 6px 0px #dfe4ea;
+  color: #616161;
+  padding: 0.5rem 0.75rem;
   text-decoration: none;
-  color: #ffffff;
+  top: 30px;
 }
-// projects page
+.btn-portfolio:active::after,
+.btn-portfolio:focus::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 0px #dfe4ea inset, -2px -2px 2px 0px #ffffff inset;
+}
+.website-change-ops{
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+}
+// desinger cards
+
+
+// project page main
