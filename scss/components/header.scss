@@ -12,9 +12,6 @@
 .projects-nav{
   margin: auto 50px auto auto;
 }
-.personal-btn{
-  color: #FFC25C !important;
-}
 .navigation-a{
   letter-spacing: 1px;
     display: inline-block;
@@ -24,9 +21,12 @@
     color: #ffffff;
     font-size: 18px;
     padding: 7px;
-       &:hover{
-         color: #FFC25C;
-       }
+      //  &:hover{
+      //    color: #FFC25C;
+      //  }
+}
+.active, .navigation-a:hover{
+  color: #FFC25C;
 }
 // project page header
 .project-page-header{

@@ -13,16 +13,16 @@
             <header class="header container">
                     <ul class="nav-ul">
                         <li class="nav-li">
-                            <a class="navigation-a personal-btn" href="index.html">PERSONAL PORTFOLIO</a>
+                            <a class="navigation-a  active personal-btn" href="index.html">PERSONAL PORTFOLIO</a>
                         </li>
                         <li class="nav-li">
-                            <a class="navigation-a about-nav" href="#">ABOUT</a>
+                            <a class="navigation-a  about-nav" href="#">ABOUT</a>
                         </li>
                         <li class="nav-li">
                             <a class="navigation-a projects-nav" href="project.html">PROJECTS</a>
                         </li>
                         <li class="nav-li">
-                            <a class="navigation-a" href="#">BLOG</a>
+                            <a class="navigation-a " href="#">BLOG</a>
                         </li>
                     </ul>
             </header>
@@ -60,6 +60,19 @@
                     </a>
                 </div>
             </section>
+        <script>
+            // Add active class to the current button (highlight it)
+            var header = document.getElementById("nav-li");
+            var btns = header.getElementsByClassName("navigation-a");
+            for (var i = 0; i < btns.length; i++) {
+              btns[i].addEventListener("click", function() {
+              var current = document.getElementsByClassName("active");
+              current[0].className = current[0].className.replace(" active", "");
+              this.className += " active";
+              });
+            }
+            </script>
+            
         </main>
     </body>
 </html>
