@@ -22,30 +22,30 @@ gulp.task('watch', function () {
 });
 
 
-// var gulp = require('gulp');
-// var concat = require('gulp-concat');
-// var uglify = require('gulp-uglify');
-// var minify = require('gulp-minify-css');
+// // var gulp = require('gulp');
+// // var concat = require('gulp-concat');
+// // var uglify = require('gulp-uglify');
+// // var minify = require('gulp-minify-css');
 
-// gulp.task('js', function() {
-//     gulp.src('assets/scripts/**/*.js')
-//         .pipe(concat('script.min.js'))
-//         .pipe(uglify())
-//         .pipe(gulp.dest('build/scripts/'));
-// });
+// // gulp.task('js', function() {
+// //     gulp.src('assets/scripts/**/*.js')
+// //         .pipe(concat('script.min.js'))
+// //         .pipe(uglify())
+// //         .pipe(gulp.dest('build/scripts/'));
+// // });
 
-// gulp.task('css', function() {
-//     gulp.src('assets/styles/**/*.css')
-//         .pipe(concat('styles.min.css'))
-//         .pipe(minify())
-//         .pipe(gulp.dest('build/styles/'));
-// });
+// // gulp.task('css', function() {
+// //     gulp.src('assets/styles/**/*.css')
+// //         .pipe(concat('styles.min.css'))
+// //         .pipe(minify())
+// //         .pipe(gulp.dest('build/styles/'));
+// // });
 
-// gulp.task('default', ['js', 'css'], function() {});
+// // gulp.task('default', ['js', 'css'], function() {});
 
-// gulp.task('watch', function() {
+// // gulp.task('watch', function() {
 
-//     gulp.watch('assets/styles/**/*', ['css']);
-//     gulp.watch('assets/scripts/**/*', ['js']);
+// //     gulp.watch('assets/styles/**/*', ['css']);
+// //     gulp.watch('assets/scripts/**/*', ['js']);
 
-// });
+// // });

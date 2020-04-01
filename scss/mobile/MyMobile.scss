@@ -1,0 +1,71 @@
+@media (max-width: 480px){
+    .index-page-main{
+        height: 100%;
+    }
+    .nav-ul{
+        flex-direction: column;
+           .about-nav, .projects-nav{
+               margin: auto;
+           }
+    }
+    .bio{
+        margin-top: 100px;
+        flex-direction: column;
+        .name-surname{
+            text-align: center;
+            height: 160px;
+            width: auto;
+        }
+        .bio-name, .bio-surname{
+            font-size: 50px;
+        }
+        .bio-line-bottom{
+            display: none;
+        }
+    }
+    .profile-img{
+        margin: auto;
+        display: block;
+    }
+    .dev-tool{
+        text-align: center;
+        width: auto;
+        margin-top: 55px;
+        height: auto;
+          .dev-developer{
+              font-size: 35px;
+          }
+    }
+    .contact-section{
+        margin-top: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .mail-or-addres-box{
+        border: 2px solid #ffc25c;
+           .my-contact-info{
+               padding: 10px;
+                 .my-phone{
+                     margin-left: 30px;
+                 }
+           }
+           .email-info{
+               border-top: 2px solid #ffc25c;
+               padding: 10px;
+               margin: auto;
+           }
+    }
+    .portfolio-social-icons-box{
+        border-left: 2px solid #ffc25c;
+        border-bottom: 2px solid #ffc25c;
+        border-right: 2px solid #ffc25c;
+    }
+    .project-page-main{
+        height: 100%;
+           .project-end-desinger{
+               padding-bottom: 120px;
+           }
+    }
+}
