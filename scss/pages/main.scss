@@ -1,5 +1,5 @@
 .index-page-main{
-  background: #333646;
+  background: $defaultBackgroundColor;
   height: 100vh; 
 }  
 .bio{
@@ -84,7 +84,7 @@
 }
 // project page main
 .project-page-main{
-  background-color: #333646;
+  background-color: $defaultBackgroundColor;
   height: 100vh;
 }
 
@@ -220,3 +220,10 @@
 // desinger cards
 
 // project page main
+
+// blog page
+.blog-page-main{
+  background-color: $defaultBackgroundColor;
+  height: 100vh;
+}
+// blog page
