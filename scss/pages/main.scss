@@ -22,14 +22,17 @@
   background-color: #FFC25C;
 }
 .dev-produt{
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Roboto';
-  margin-top: px;
+  margin-top: 15px;
 }
 .dev-developer{
-  font-size: 50px;
+  font-size: 45px;
   font-family: 'Roboto';
-  margin-top: 20px;
+  margin-top: 30px;
+}
+.txt-border-bottom{
+  border-bottom: 5px solid  #FFC25C;
 }
 .name-surname{
   height: 360px;
@@ -42,9 +45,9 @@
   color: #ffffff;
 }
 .profile-img{
-  height: 250px;
-  margin: 0 70px 0 30px;
-  border-radius: 50% ;
+  width: 250px;
+  border-radius: 50%;
+  margin-right: 40px;
 }
 .portfolio-social-icons-box{
    margin-right: 10px;
