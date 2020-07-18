@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Watch</title>
+    <link  rel="shortcut icon" type="SoursCode" href="img/smartwatchtitlelLogo.png">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main class="smart-Watch-Main">
+         <header class="smartWatch-header container">
+            <nav class="smartWatch-nav">
+                <ul class="smartWatch-ul">
+                    <img class="smart_Watch_Logo" src="img/SmartWatchLogo.png" alt="">
+                    <li class="smartWatch-li">Overview</li>
+                    <li class="smartWatch-li">Design</li>
+                    <li class="smartWatch-li">Workout</li>
+                    <li class="smartWatch-li">Health</li>
+                    <li class="smartWatch-li">Activity</li>
+                    <img class="smartwatchSearch_logo" src="img/SmartWatchSearchLogo.png" alt="">
+                </ul>
+            </nav>
+        </header>
+
+    <div class="slide-star-div">
+        <div class="mySlide-div">
+            <h1 class="smartWatchTitle-h1">The #1 smartwatch in the world. Times two.</h1>
+            <img class="mySlide-imgs" src="img/applySmartWatchImage_1.jpg" alt="applySmartWatchImage_1">
+            <img class="mySlide-imgs" src="img/applySmartWatchImage_2.png" alt="applySmartWatchImage_2">
+            <img class="mySlide-imgs" src="img/applySmartWatchImage_3.jpg" alt="applySmartWatchImage_3">
+            <img class="mySlide-imgs" src="img/applySmartWatchImage_4.jpg" alt="applySmartWatchImage_4">
+            <img class="mySlide-imgs" src="img/applySmartWatchImage_5.png" alt="applySmartWatchImage_5">
+            
+               <div class="slideButtons-box">
+                <button class="style-Button slide-images-button-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="style-Button slide-images-button-right" onclick="plusDivs(1)">&#10095;</button>
+             </div>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlide-imgs");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+    </div>
+    </main>
+</body>
+</html>

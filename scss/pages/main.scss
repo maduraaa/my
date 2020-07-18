@@ -92,10 +92,18 @@
 }
 
 // desinger cards
-.project-end-desinger{
+.cards-star-section{
   display: flex;
   justify-content: center;
   margin-top: 100px;
+}
+.project-end-desinger {
+  // display: flex;
+  // justify-content: center;
+  margin: 30px;
+}
+.desinger-profile-card-2{
+  margin: 30px;
 }
 .card{
   border-radius: 10px;
@@ -142,6 +150,11 @@
   top: 5px;
   left: 4.9px;
   border-radius: 50%;
+}
+.fa-user{
+  margin-top: 20px;
+  font-size: 40px;
+  margin-left: 25px;
 }
 .imgg{
   width: 100%;
@@ -233,3 +246,100 @@
   font-family: 'Roboto_bold';
 }
 // blog page
+
+// smart watch scss
+.smart-Watch-Main{
+  height: 100%;
+  background-color: #f0efed;
+}
+.smartWatch-header{
+  background-color: #F0EEEE;
+    .smartWatch-nav{
+        .smartWatch-ul{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 3px;
+          border-bottom: gray 1px solid;
+          }
+            .smart_Watch_Logo{
+              height: 30px;
+              margin-right: 200px;
+              border: 2px solid gray;
+              border-radius: 25%;
+              padding: 5px;
+              cursor: pointer;
+            }
+            .smartwatchSearch_logo{
+              height: 24px;
+              margin-left: 170px;
+              cursor: pointer;
+              padding: 5px;
+            }
+            .smartWatch-li{
+              font-size: 16px;
+              padding: 20px;
+              cursor: pointer ;
+              font-family: 'Roboto';
+              color: rgb(122, 122, 122);
+            }
+            .smartWatch-li:hover{
+              color: #000000;
+              padding-bottom: 19px;
+              transition: all 0.02s ease 0s;
+            }
+        }
+    }
+    .slide-star-div{
+      background-color:#F0EFED;
+      height: calc(100vh - 63px);
+      width: 100%;
+    }
+    .mySlide-imgs{
+      height: 57%;
+      position: absolute;
+      left: 50%;
+      top: 55%;
+      transform: translate(-50%, -50%);
+      transition: 1s all ease;
+      overflow: hidden;
+    }
+    .mySlide-imgs:hover{
+      height: 61%;
+      transition: all 0.3s ease;
+      // cursor: pointer;
+    }
+    .mySlide-imgs:nth-child(4){
+      height: 50%;
+      transition: 1s all ease;
+    }
+    .mySlide-imgs:nth-child(4):hover{
+      height: 57%;
+      transition: all 0.3s ease;
+    }
+    .slideButtons-box{
+      display: flex;
+      justify-content: space-between;
+      padding: 50px;
+    }
+    .style-Button{
+      display: flex;
+      justify-content: row;
+      cursor: pointer;
+      padding: 100px 60px ;
+      margin-top: 11%;
+      border: none;
+      outline: none;
+      background-color: none;
+    }
+    .smartWatchTitle-h1{
+      // padding-top: 70px;
+      font-family: 'Mont Heavy DEMO';
+      height: 57%;
+      position: absolute;
+      left: 50%;
+      top: 43%;
+      transform: translate(-50%, -50%);
+      font-size: 22px;
+    }
+// smart watch scss
