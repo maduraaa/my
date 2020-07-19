@@ -342,4 +342,77 @@
       transform: translate(-50%, -50%);
       font-size: 22px;
     }
+    .smartWatch-made-section{
+      padding-bottom: 100px;
+    }
+    .smartWatch-made-div{
+      width: 100%;
+      display: flex;
+        .smartWatch-first-div{
+          width: 30%;
+          height: 85vh;
+          // background-color: red;
+          background-image:  url("../img/applySmartWatchImage_5.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        .smartWatch-last-div{
+          width: 70%;
+          height: 75vh;
+          background-color:#cecdcc;
+          // background-image: linear-gradient(#F0EFED, #cecdcc,);
+          // background-image: linear-gradient(to right, #F0EFED, #cecdcc,);
+    background: linear-gradient(217deg, rgb(236, 233, 233), rgba(85, 21, 21, 0) 70.71%),
+                linear-gradient(127deg, rgba(172, 163, 163, 0.8), rgba(112, 58, 58, 0) 70.71%),
+                linear-gradient(336deg, rgb(214, 60, 13), rgba(255, 255, 255, 0) 70.71%);
+                border-radius: 10px;
+        }
+        .smartWatch-div-title{
+          text-align: center;
+        }
+        .smartWatch-div-title-img{
+          height: 120px;
+        }
+        .smartWatch-p{
+          font-size: 22px;
+          font-family: 'Roboto';
+          line-height: 25px;
+          width: 600px;
+          text-align: center;
+          margin: auto;
+          font-weight: 400;
+          color: #333;
+        }
+        .smartWatch-buy-h2{
+          font-family: 'FiraGO';
+          letter-spacing: 0.5px;
+          font-size: 16px;
+          // margin: auto;
+          // align-items: center;
+          text-align: center;
+          margin-top: 30px;
+          color: #333;
+        }
+        .smartWatch-buy-button{
+          font-family: 'Roboto';
+          border: 1px solid #0071e3 ;
+          border-radius: 25px;
+          padding: 10px 25px;
+          display: inline-block;
+          color: #ffffff;
+          cursor: pointer;
+          background-color: #0071e3;
+          letter-spacing: 0.5px;
+          font-size: 18px;
+        }
+        .smartWatch-buy-div{
+         display: flex;
+         justify-content: center;
+         margin-top: 45px;
+        }
+        .smartWatch-buy-button:hover{
+          background-color: #0783ff;
+        }
+    }
 // smart watch scss
