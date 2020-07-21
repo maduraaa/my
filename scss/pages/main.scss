@@ -439,5 +439,34 @@
       font-family: 'Roboto';
       font-weight: 1000;
     }
+    .smartWatchWhereToBuy-div{
+      display: flex;
+      justify-content: center; 
+        .smartWatchWhereToBuy-h1, .smartWatchWhereToBuy-h2{
+          font-size: 17px;
+          padding: 5px;
+          margin: 15px;
+          font-family: 'Roboto'; 
+          font-weight: lighter;
+          line-height: 40px;
+          color: #68A1D5;
+          cursor: pointer;
+        }
+        .fa-chevron-right{
+          font-size: 12px;
+          color: #68A1D5;
+          cursor: pointer;
+        }
+        .smartWatchWhereToBuy-h1:hover, .smartWatchWhereToBuy-h2:hover{
+          color: #1c67ad;
+        }
+    }
+    .smartWatchWTextFor-p{
+      text-align: center;
+      font-family: 'Roboto';
+      font-weight: 500;
+      font-size: 20px;
+      margin: 30px 20px 10px 20px;
+    }
     
 // smart watch scss
