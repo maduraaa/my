@@ -342,8 +342,8 @@
       transform: translate(-50%, -50%);
       font-size: 22px;
     }
-    .smartWatch-made-section{
-      margin-top: 100px;
+    .jquery-mouse-over-animation{
+      height: 100px;
     }
     .smartWatch-made-div{
       width: 100%;
@@ -356,6 +356,7 @@
           background-size: contain;
           background-repeat: no-repeat;
           background-position: center;
+          display: none;
         }
         .smartWatch-last-div{
           width: 70%;
@@ -388,11 +389,11 @@
         .smartWatch-buy-h2{
           font-family: 'FiraGO';
           letter-spacing: 0.5px;
-          font-size: 16px;
+          font-size: 20px;
           // margin: auto;
           // align-items: center;
           text-align: center;
-          margin-top: 30px;
+          margin-top: 40px;
           color: #333;
         }
         .smartWatch-buy-button{
@@ -406,6 +407,7 @@
           background-color: #0071e3;
           letter-spacing: 0.5px;
           font-size: 18px;
+          margin-top: 5px;
         }
         .smartWatch-buy-div{
          display: flex;
@@ -429,7 +431,7 @@
       font-family: 'Roboto_bold';
       letter-spacing: 3px;
       font-size: 18px;
-      color: #660909;
+      color: #b61d1d;
     }
     .smartWatchDesing-info-h1{
       text-align: center;
@@ -437,4 +439,5 @@
       font-family: 'Roboto';
       font-weight: 1000;
     }
+    
 // smart watch scss
