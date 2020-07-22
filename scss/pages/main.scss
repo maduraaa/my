@@ -517,5 +517,64 @@
          cursor: pointer;
        }
     }
+    .smartWatchSport-section{
+      height: 100vh;
+      background-color: #000000;
+        .smartWatchSport-div-box{
+          // background-color: green;
+          box-sizing: border-box;
+          height: 100vh;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        .smartWatchSport-image{
+          height: 450px;
+          margin-top: 110px;
+        }
+        .smartWatchSport-text-div{
+            .smartWatchSport-h1{
+              font-size: 50px;
+              color: #ffffff;
+              font-family: 'Mont Heavy DEMO';
+              margin: 150px auto 50px 100px;
+            }
+            .smartWatchSport-p{
+              font-size: 19px;
+              color: #ffffff;
+              width: 75%;
+              text-align: left;
+              font-family: 'Mont ExtraLight DEMO';
+              font-weight: 500;
+              margin: 50px auto 50px 100px;
+              border-left: 1px solid;
+              border-right: 1px solid;
+              padding-left: 20px;
+            }
+            .smartWatchSport-h2{
+              font-size: 16px;
+              color: #ffffff;
+              font-family: 'Mont ExtraLight DEMO';
+              border: 0.5px solid #ffffff;
+              display: inline;
+              padding: 5px 24px;
+              margin: 100px auto 70px 100px;
+            }
+            .smartWatchSport-h2:hover{
+              background-color: #ffffff;
+              cursor: pointer;
+              color: #000000;
+            }
+            .smartWatchSport-more-p{
+              color: #cecece;
+              font-size: 15px;
+              font-family: 'Mont ExtraLight DEMO';
+              margin: 100px auto auto 100px;
+              border-bottom: 1px solid #ffffff;
+              padding: 10px;
+               width: 420px;
+            }
+        }
+    }
     
 // smart watch scss
