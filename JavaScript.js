@@ -9,3 +9,11 @@
         });
     }
 // navigation active
+
+// slick slide
+
+//   $(function(){
+    
+//   });
+
+// slick slide
