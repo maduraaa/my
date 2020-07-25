@@ -763,4 +763,37 @@ height: 287px;
       border-radius: 0px;
     }
 }
+// smartWatch footer start
+.smartWatch-footer{
+  height: 100%;
+}
+.smartWatch-footer-flex-div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.smartWathc-footer-last-flex-div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  // background: darkgrey;
+  width: 240px;
+     .smartWatch-footer-a{
+       text-decoration: none;
+       font-size: 12px;
+       font-family: 'Roboto';
+       color: #747474;
+       margin: 0px 0 14px 0;
+     }
+     .smartWatch-footer-a:hover{
+       text-decoration: underline;
+       color: #5c5c5c;
+     }
+     .smartWatch-footer-service-title{
+       font-size: 15px;
+       font-family: 'Roboto';
+       color: #494949;
+       margin-top: 20px;
+       margin-bottom: 15px;
+     }
+}
 // smart watch scss
