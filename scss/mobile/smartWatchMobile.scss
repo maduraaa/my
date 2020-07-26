@@ -1,0 +1,45 @@
+@media (max-width: 1124px){
+    .smartWatch-made-section{
+        width: 98%;
+        margin: auto;
+    }
+    .special-image-for-slick-slide{
+        left: 461px;
+        top: 488.7%;
+    }
+    .priv-arrow, .next-arrow{
+        display: none !important;
+    }
+    .smartWathc-footer-last-flex-div{
+        width: 185px;
+        margin-left: 35px;
+    }
+    .SM-hover-img{
+        margin: -5px;
+    }
+}
+
+@media (max-width: 1034px){
+    .SM-hover-img{
+        margin: -18px;
+    }
+    .smartWathc-footer-last-flex-div{
+        width: 165px;
+    }
+    .special-image-for-slick-slide{
+        left: 415px;
+        top: 504.5%;
+    }
+}
+
+@media (max-width: 1024px){
+    .SM-hover-img{
+        margin: -18px;
+    }
+    .special-image-for-slick-slide{
+        left: 410px;
+    }
+    .smartWathc-footer-last-flex-div{
+        width: 164px;
+    }
+}
