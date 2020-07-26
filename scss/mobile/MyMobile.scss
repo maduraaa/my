@@ -44,7 +44,7 @@
         padding-bottom: 20px;
     }
     .mail-or-addres-box{
-        border: 2px solid #ffc25c;
+        
            .my-contact-info{
                padding: 10px;
                  .my-phone{
@@ -57,11 +57,6 @@
                margin: auto;
            }
     }
-    .portfolio-social-icons-box{
-        border-left: 2px solid #ffc25c;
-        border-bottom: 2px solid #ffc25c;
-        border-right: 2px solid #ffc25c;
-    }
     .project-page-main{
         height: 100%;
            .project-end-desinger{
@@ -71,5 +66,8 @@
     }
     .elfsight-app-24e185d6-e513-4195-b37c-a1dfb6ba6c28{
         margin-right: 120px;
+    }
+    .cards-star-section{
+        flex-wrap: wrap;
     }
 }
