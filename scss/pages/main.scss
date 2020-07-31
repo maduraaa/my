@@ -648,13 +648,6 @@
   height: 300px;
   position: relative;
 }
-.special-image-for-slick-slide{
-position: absolute !important;
-z-index: 100;
-left: 582.4px;
-top: 451.5%;
-height: 287px;
-}
 .priv-arrow{
   font-size: 20px;
   color: #4d4d4d;
@@ -679,6 +672,8 @@ height: 287px;
 .smartWatch-upDate-hover-image-section{
   height: 100vh;
   background-color: #ffffff;
+  overflow: hidden;
+  box-sizing: border-box;
   // background-color: red;
 }
 .smartWatch-update-images-box{
@@ -803,5 +798,19 @@ height: 287px;
   font-family: 'Roboto';
   color: #860000;
   display: none;
+}
+.smartWatch-slick-slide-responsive-star-box{
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.smartWatch-slickSlide-image-box{
+  position: absolute;
+  left: calc(50% - 100px);
+  z-index: 10;
+  bottom: 35px ;
+}
+.special-image-for-slick-slide{
+  width: 200px;
 }
 // smart watch scss
