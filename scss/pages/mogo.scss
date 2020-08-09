@@ -1,0 +1,115 @@
+body{
+    background-color: gray;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.mogo-header-div{
+    background-image: url("../img/mogo-header-background-image.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+        .mogo-header-title-h1, .mogo-header-title-h2, .mogo-header-title-h3{
+            color: #ffffff;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .mogo-header-title-h1{
+            font-size: 50px;
+            text-align: center;
+            margin-top: 80px;
+            margin-bottom: 30px;
+        }
+        .mogo-header-title-h2, .mogo-header-title-h3{
+            text-align: center;
+            font-size: 90px;
+            text-transform: uppercase;
+        }
+        .mogo-bottom-title-line-div{
+            width: 60px;
+            border-bottom: 3px solid #ffffff;
+            margin: 20px auto auto auto;
+        }
+        .mogo-header-learn-more-span{
+            font-size: 16px;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+            display: inline;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;  
+            padding: 10px 40px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        .mogo-header-learn-more-h1{
+            text-align: center;
+            margin-top: 50px;
+            cursor: pointer;
+        }
+}
+.mogo-header{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+     .mogo-nav{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+            .mogo-basket-image{
+                height: 16px;
+                cursor: pointer;
+                margin-left: 35px;
+            }
+            .mogo-search-image{
+                height: 19px;
+                cursor: pointer;
+                margin-left: 45px;
+            }
+         .mogo-nav-logo{
+             font-size: 30px;
+             font-weight: 600;
+             color: #ffffff;
+             letter-spacing: 1px;
+             cursor: pointer;
+             font-family: 'Montserrat', sans-serif;
+             padding: 10px;
+             line-height: 20px;
+         }
+         .mogo-ul{
+             display: flex;
+             justify-content: flex-end;
+             align-items: center;
+            //  flex-grow: 1;
+                .mogo-li{
+                    margin: 20px;
+                       .mogo-li-a{
+                           font-size: 14px;
+                           font-family: 'Montserrat', sans-serif;
+                           text-decoration: none;
+                           padding: 10px;    
+                           display: inline-block;
+                           color: #ffffff;
+                       }
+                       .mogo-li-a::after {
+                        content: '';
+                        display: block;
+                        width: 0;
+                        height: 2px;
+                        background-color:#FCE38A;
+                        transition: width .1s;
+                        margin-top: 2px;
+                        overflow: hidden;
+                       }
+                       .mogo-li-a:hover::after {
+                            width: 100%;
+                        }
+                        .mogo-li-a:hover{
+                            color: #FCE38A;
+                        }
+                }
+         }
+     }
+}

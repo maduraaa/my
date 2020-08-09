@@ -90,7 +90,33 @@
   background-color: $defaultBackgroundColor;
   height: 100vh;
 }
-
+.profile-img-desinger-lm{
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;
+  width: 85px;
+  height: 85px;
+  border: 3px solid #f1f8fd;
+  box-shadow:
+  20px 20px 20px rgba(0,0,0,0.07),
+  -20px -20px 20px rgba(255,255,255,0.7),
+  6px 6px 6px rgba(0,0,0,0.09),
+  -6px -6px 6px rgba(255,255,255,0.9);
+}
+.profile-img-desinger-lm::after{
+  content:"";
+  border-radius: 50%;
+  background-color: #f1f8fd;
+  display: block;
+  background-image: url(../img/tamar-demetrashvili-img.jpg);
+}
+.levan-m-profile-img{
+  height: 76px;
+  /* border: coral; */
+  border-radius: 50%;
+  margin-left: 4.6px;
+  margin-top: 4.4px;
+}
 // desinger cards
 .cards-star-section{
   display: flex;
