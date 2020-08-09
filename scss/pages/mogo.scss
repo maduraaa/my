@@ -7,8 +7,8 @@ body{
     background-image: url("../img/mogo-header-background-image.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
     max-height: 100vh;
+    min-height: 670px;
     overflow: hidden;
         .mogo-header-title-h1, .mogo-header-title-h2, .mogo-header-title-h3{
             color: #ffffff;
@@ -112,4 +112,42 @@ body{
                 }
          }
      }
+}
+.mogo-story-section{
+    max-height: 100vh;
+    min-height: 670px;
+    background-color: #5a4c4c;
+}
+.mogo-story-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        .mogo-story-title-h1{
+            font-size: 24px;
+            color: black;
+            font-family: 'Kaushan Script', cursive;
+            margin-top: 90px;
+        }
+        .mogo-story-title-h2{
+            font-size: 30px;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            margin-top: 25px;
+        }
+        .mogo-story-title-bottom-line{
+            height: 3px;
+            width: 60px;
+            background-color: #F38181;
+            margin-top: 40px;
+        }
+        .mogo-story-p{
+            font-size: 14px;
+            color: #999999;
+            font-family: 'Roboto';
+            width: 900px;
+            text-align: center;
+            margin-top: 40px;
+            line-height: 20px;
+        }
 }
