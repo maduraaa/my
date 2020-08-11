@@ -214,4 +214,72 @@ body{
             background-color:#ffffff;
         }
 }
+.mogo-work-info-move-div{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    // margin-top: 40px;
+}
+.mogo-work-title-h1{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}
+.mogo-work-title-descripten-h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.mogo-work-title-bottom-line{
+    height: 3px;
+    width: 60px;
+    background-color: #95E1D3;
+    display: block;
+    margin: 40px auto 65px auto;
+}
+.mogo-work-star-div{
+    background-color: #ffffff;
+    max-height: 650px;
+    min-height: 650px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 100px;
+}
+.mogo-work-mini-section-div{
+    height: 100px;
+    width: 350px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    // margin-top: 60px;
+    margin: 25px;
+    // background-color: red;
+        .mogo-work-images{
+            height: 30px;
+        }
+        .mogo-work-h1{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #000000;
+            text-transform: uppercase;
+        }
+        .mogo-work-p{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            color: #000000;
+            line-height: 20px;
+            margin-top: 20px;
+        }
+        .mogo-work-texts-move-div{
+            margin-left: 25px;
+        }
+}
+.mogo-work-boxes-line-span{
+     height: 1px;
+     width: 100%;
+     background-color: #E5E5E5;
+     margin-bottom: 30px;
+}
 
