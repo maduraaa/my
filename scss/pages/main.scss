@@ -840,3 +840,87 @@
   width: 200px;
 }
 // smart watch scss
+.project-page-slide-a-tag{
+  padding: 5px;
+  text-transform: uppercase;
+  font-family: 'Kaushan Script', cursive;
+
+}
+.Title_Hover{
+  background-color: #ddd;
+  padding: 10px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.ProjectItems{
+    position: relative;
+    background-image: url('../img/project-page-slide-mogo-web-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0PX;
+    width: 350px;
+    height: 400px;
+    transition: all 7s;
+    -webkit-transition: all 5s;
+    // box-shadow: #999 0PX 0PX 5PX;
+    // padding: 0 10px;
+    margin: auto;
+}
+
+        .ProjectItems:hover
+        {
+            background-position-y: 100%;
+        }
+
+         .ProjectItems_Two
+    {
+        position: relative;
+        background-image: url('../img/project-page-slide-wine-web-img.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 0PX;
+        width: 350px;
+        height: 400px;
+        transition: all 7s;
+        -webkit-transition: all 5s;
+        // box-shadow: #999 0PX 0PX 5PX;
+        // padding: 0 10px;
+        margin: auto;
+    }
+
+        .ProjectItems_Two:hover
+        {
+            background-position-y: 100%;
+        }
+
+                 .ProjectItems_Three
+    {
+        position: relative;
+        background-image: url('../img/project-page-slide-smartWatch-web-img.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 0PX;
+        width: 350px;
+        height: 400px;
+        transition: all 7s;
+        -webkit-transition: all 5s;
+        // box-shadow: #999 0PX 0PX 5PX;
+        // padding: 0 10px;
+        margin: auto;
+    }
+
+        .ProjectItems_Three:hover
+        {
+            background-position-y: 100%;
+        }
+
+.project-page-slide-cards-div{
+  margin-top: 100px;
+}
+.navigation-a{
+  text-decoration: none !important;
+}
