@@ -243,7 +243,7 @@ body{
     max-height: 650px;
     min-height: 650px;
     box-sizing: border-box;
-    overflow: hidden;
+    // overflow: hidden;
     padding-top: 100px;
 }
 .mogo-work-mini-section-div{
@@ -282,4 +282,74 @@ body{
      background-color: #E5E5E5;
      margin-bottom: 30px;
 }
+.mogo-device-title-h1{
+    font-size: 35px;
+    color: #000000;
+    font-family: 'Kaushan Script', cursive;
+    padding-top: 50px;
+    text-align: center;
+}
+.mogo-device-title-h2{
+    font-size: 45px;
+    font-weight: 900;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-top: 30px;
+    text-align: center;
+}
+.mogo-device-title-bottom-line{
+    height: 5px;
+    width: 100px;
+    background-color: #95E1D3;
+    margin: 30px auto auto auto;
+}
+.mogo-device-content-div{
+    background-image: url("../img/mogo-device-div-background-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    // filter: grayscale(100%);
+    max-height: 800px;
+    min-height: 800px;
+}
+.mogo-device-images-div{
+    position: relative;
+        .mogo-device-tablet-bk-img{
+            position: absolute;
+            height: 350px;
+            left: 396px;
+            top: 450px;
+        }
+        .mogo-device-ipad-div{
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .mogo-device-ipad-img{
+            height: 480px;
+            position: absolute;
+            left: 228px;
+            top: 383px;
+        }
+        .mogo-device-mobole-img{
+            position: absolute;
+            height: 300px;
+            left: 630px;
+            top: 541px;
+            z-index: 2;
+        }
+        .mogo-device-tablet-bk-div{
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+}
 
+.luakii{
+    height: 50px;
+    width: 100% ;
+    background-color: #ffffff;
+    position: relative;
+}
+.mogo-service-text-div{
+    height: 500px;
+    background-color:#ffffff;
+}
